@@ -1,0 +1,21 @@
+.weather-conatiner{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+
+    span {
+        font-size: 150px;
+    }
+    p{
+        margin-top: -1em;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 425px){
+    .weather-conatiner{
+        span {
+            font-size: 90px;
+        }
+       
+    }
+}

@@ -1,0 +1,66 @@
+// @import "_typo.scss";
+@import "_city.scss";
+@import "_weather.scss";
+
+body {
+    background-color: #498CEC;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &-item {
+        flex: 0 0 25%;
+        max-width: 25%;
+        
+        // font-family: "ProximaNova";
+        text-align: left;
+        .property {
+            opacity: 0.6;
+            font-size: 18px;
+            margin-bottom: 7px;
+            white-space: nowrap;
+        }
+
+        .value {
+            font-size: 25px;
+        }
+
+        span {
+            font-size: 19px;
+        }
+    }
+}
+
+
+
+.footer {
+    margin-top: 5vh;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width:95%;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        justify-content: space-around;
+        align-content: flex-end;
+        .container-item {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}
