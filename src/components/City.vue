@@ -14,8 +14,8 @@
     </div>
     <div id="cf" class="container-item ">
       <div class="deg">
-          <i>°</i>
-        <span :class="{active: isC}" @click="setTemperatureType('C')" class="left">C</span>
+         
+        <span :class="{active: isC}" @click="setTemperatureType('C')" class="left"> <i>°</i>C</span>
         <span :class="{active : !isC }" @click="setTemperatureType('F')" class="right">F</span>
       </div>
     </div>

@@ -6,8 +6,12 @@
         font-size: 150px;
     }
     p{
-        margin-top: -1em;
         font-size: 25px;
+    }
+    img{
+        position: relative;
+        right: 1em;
+
     }
 }
 @media screen and (max-width: 425px){
@@ -15,6 +19,9 @@
         span {
             font-size: 90px;
         }
-       
+        img{
+           width: 70px;
+    
+        }
     }
 }

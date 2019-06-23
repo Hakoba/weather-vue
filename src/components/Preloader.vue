@@ -31,8 +31,8 @@ export default {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    //  box-shadow: 0 -2px 2px rgba(0,0,0,.2);
-    border-bottom: 10px solid rgb(43, 196, 89);
+     box-shadow: 0 -2px 2px rgba(0,0,0,.2);
+    border-bottom: 5px solid rgb(43, 196, 89);
     animation: loader 2.4s linear infinite;
     position: absolute;
     bottom: 10%;
