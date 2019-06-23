@@ -7,13 +7,14 @@
       </div>
       <h2  v-if="!popupState">{{transliterate(weather.name,true)}}</h2>
       <div  v-if="!popupState" class="property">
-        <span @click="popupState = !popupState">Сменить город</span> *
-        <span @click="getMyLocation">Моё метоположение</span>
+        <span @click="popupState = !popupState">Сменить город</span> 
+    
+        <span @click="getMyLocation">Моё меcтоположение</span>
       </div>
     </div>
     <div id="cf" class="container-item ">
       <div class="deg">
-        °
+          <i>°</i>
         <span :class="{active: isC}" @click="setTemperatureType('C')" class="left">C</span>
         <span :class="{active : !isC }" @click="setTemperatureType('F')" class="right">F</span>
       </div>

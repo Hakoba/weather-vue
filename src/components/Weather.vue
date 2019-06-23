@@ -1,5 +1,5 @@
 <template>
-    <div class="weather-conatiner">
+    <div class="containter weather-conatiner">
        <div> <img  :src="`http://openweathermap.org/img/w/${weather.weather[0].icon}.png`" alt=""> <span>{{check}}°</span>
         <p >{{weather.weather[0].description}}</p>
         </div>

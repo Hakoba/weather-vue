@@ -7,3 +7,6 @@
 //         }
 //     }
 // };
+// module.exports = {
+//     publicPath: `weather-vue`
+//    } 

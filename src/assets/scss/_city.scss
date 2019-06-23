@@ -1,14 +1,18 @@
 .top {
-    padding-top: 50px ;
-    padding: 5% 5%;
     span{
         cursor: pointer;
         color: white;
         opacity: 1;
     }
     .deg {
+        position: relative;
         margin-top: 25px;
-
+        i{
+            position: absolute;
+            left: -15px;
+            font-size: 25px;
+            
+        }
         .left,
         .right {
             border: 1px solid rgba(white, .4);
@@ -69,4 +73,23 @@
             }
         }
     }
+}
+@media screen and (max-width: 768px){
+    .top {
+        .input-field {
+            position: absolute;
+            margin-top: 0;
+            
+                .input-text {
+                    width: 85vw !important;
+               
+            }
+            span {
+                right: 5% !important;
+            }
+        }
+    }
+}
+#cf{
+    text-align: right !important;
 }

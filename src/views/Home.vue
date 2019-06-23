@@ -11,7 +11,7 @@
 
 <script>
 import Det from '@/components/Details.vue';
-import City from '@/components/City.vue'
+  import City from '@/components/City.vue'
 import Weather from '@/components/Weather.vue'
 import Preloader from '@/components/Preloader.vue'
 export default {
