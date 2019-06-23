@@ -71,7 +71,8 @@ export default {
   computed: {
       weather(){
               return this.$store.state.weather
-          }
+          },
+      
   },
   
 };

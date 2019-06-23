@@ -1,6 +1,6 @@
 <template>
     <div class="containter weather-conatiner">
-       <div> <img  src="../assets/sun.png" alt=""> <span>{{check}}°</span>
+       <div> <img  :src="require(`@/assets/${pic}.png`)" alt=""> <span>{{check}}°</span>
         <p >{{weather.weather[0].description}}</p>
         </div>
     </div>
@@ -20,6 +20,13 @@ export default {
           },
           weather(){
               return this.$store.state.weather
+          },
+          pic(){
+              if( this.weather.weather[0].description.match(/дождь/) != null){
+                  return 'rain'
+              }
+              return 'sun'
+               
           }
      }
  
