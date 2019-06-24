@@ -9,7 +9,7 @@
       <div  v-if="!popupState" class="property">
         <span @click="popupState = !popupState">Сменить город</span> 
     
-        <span @click="getMyLocation">Моё меcтоположение</span>
+        <span class="location" @click="getMyLocation">&nbsp; <img src="../assets/plane.png" alt=""> Моё меcтоположение</span>
       </div>
     </div>
     <div id="cf" class="container-item ">
@@ -48,6 +48,8 @@ export default {
 			return text;
     },
     setCity(){
+      this.popupState = false
+
       if(this.city == ''){
       this.popupState = false
       
@@ -56,7 +58,6 @@ export default {
       this.city = this.transliterate(this.city, true)
         }
       this.$store.dispatch("getWeather", this.city);
-      this.popupState = false
       }
     },
     getMyLocation(){

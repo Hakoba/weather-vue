@@ -24,6 +24,8 @@ export default {
           pic(){
               if( this.weather.weather[0].description.match(/дождь/) != null){
                   return 'rain'
+              }else if(this.weather.weather[0].description.match(/туман|обла/) != null){
+                  return 'cloud'
               }
               return 'sun'
                
