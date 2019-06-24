@@ -10,7 +10,7 @@ body {
 }
 
 #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family:   sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -18,10 +18,11 @@ body {
    
 }
 .home{
+    font-family: 'Montserrat', sans-serif;
     padding: 0 5%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100vh;
 .container {
     
@@ -45,18 +46,17 @@ body {
             font-size: 25px;
         }
 
-        span {
+        .types {
+            font-family: 'Source Sans Pro', sans-serif;
             font-size: 19px;
         }
+        
     }
 }
 
 .footer {
-    // margin-top: 5vh;
-    // position: absolute;
-    // bottom: 5%;
-    // left: 5%;
-    // width:95%;
+    margin-bottom: 2em;
+    
 }
 }
 @media screen and (max-width: 768px) {

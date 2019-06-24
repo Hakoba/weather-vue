@@ -4,25 +4,25 @@
       <p class="property">Ветер</p>
 
       <strong class="value">{{weather.wind.speed}}</strong>
-      <span>м/с, {{windDirection}}</span>
+      <span class="types"> м/с, {{windDirection}}</span>
     </div>
     <div class="container-item">
       <p class="property">Давление</p>
 
       <strong class="value">{{weather.main.pressure}}</strong>
-      <span>мм рт. ст.</span>
+      <span class="types"> мм рт. ст.</span>
     </div>
     <div class="container-item">
       <p class="property">Влажность</p>
 
       <strong class="value">{{weather.main.humidity}}</strong>
-      <span>%</span>
+      <span class="types">%</span>
     </div>
     <div class="container-item">
       <p class="property">Вероятность дождя</p>
 
       <strong class="value">{{weather.clouds.all}}</strong>
-      <span>%</span>
+      <span class="types">%</span>
     </div>
   </div>
 </template>

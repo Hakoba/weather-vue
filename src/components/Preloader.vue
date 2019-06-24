@@ -23,20 +23,22 @@ export default {
 .preloader {
   width: 100%;
   height: 100vh;
-  background: rgba(#498cec, 0.95);
+  background: rgba(#498cec, 0.98);
   position: absolute;
   top: 0;
   .loader {
-    border: 7px solid #eae4ea;
-    width: 100px;
-    height: 100px;
+    border: 5px solid #eae4ea;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
-     box-shadow: 0 -2px 2px rgba(0,0,0,.2);
     border-bottom: 5px solid rgb(43, 196, 89);
     animation: loader 2.4s linear infinite;
     position: absolute;
-    bottom: 10%;
-    right: 10%;
+    bottom: 5%;
+    right: 15%;
+
+   
+    
   }
 }
 @keyframes loader {

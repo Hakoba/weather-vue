@@ -5,8 +5,8 @@
       <input @key-up.enter="setCity" v-model="city"  class='input-text' type="text">
       <span @click="setCity">Ок</span>
       </div>
-      <h2  v-if="!popupState">{{transliterate(weather.name,true)}}</h2>
-      <div  v-if="!popupState" class="property">
+      <h2  >{{transliterate(weather.name,true)}}</h2>
+      <div   class="property">
         <span @click="popupState = !popupState">Сменить город</span> 
     
         <span class="location" @click="getMyLocation">&nbsp; <img src="../assets/plane.png" alt=""> Моё меcтоположение</span>

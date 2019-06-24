@@ -50,7 +50,7 @@ export default new Vuex.Store({
           commit("setWeather", res.data);
           commit('setPreloaderState',false)
         } catch(e) {
-          // state.temperature = 'Ошибка Api, соре'
+          state.temperature = 'Ошибка Api, соре'
           commit('setPreloaderState',false)
       }
     }
