@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "/weather-vue/js/chunk-vendors.a00016c8.js"
   },
   {
-    "revision": "5fe4132c737246fb4464",
-    "url": "/weather-vue/js/app.91b14f50.js"
+    "revision": "7117dc716b3a17f6c918",
+    "url": "/weather-vue/js/app.59b00661.js"
   },
   {
-    "revision": "cb7efef1ca49c1a64af4f55a1a675397",
+    "revision": "5d984d360924d2de8f3091083586ee83",
     "url": "/weather-vue/index.html"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/weather-vue/img/logo.82b9c7a5.png"
   },
   {
-    "revision": "5fe4132c737246fb4464",
+    "revision": "7117dc716b3a17f6c918",
     "url": "/weather-vue/css/app.2d804f07.css"
   }
 ];
